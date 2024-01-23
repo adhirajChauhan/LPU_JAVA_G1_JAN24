@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LPU",
+            "request": "launch",
+            "mainClass": "LPU",
+            "projectName": "LPU_JAVA_G1_JAN24_61d00ce3"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
