@@ -19,9 +19,14 @@ class LPU{
 
     // }
 
+    for(int i = 0; i < 10; i++){
 
-    
+        // if(i == 5) break; //jump out of the loop
 
+        if(i == 5) continue; //skip
+
+        System.out.println(i);
+    }
 
     }
 }
