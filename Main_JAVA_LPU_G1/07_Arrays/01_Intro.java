@@ -25,8 +25,6 @@ class LPU{
         // }
         
 
-        int arr[][] = new int[5][4];
-
     }
 }
 
