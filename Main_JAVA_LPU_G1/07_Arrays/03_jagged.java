@@ -9,7 +9,7 @@ class LPU{
         arr[0] = new int[4];
         arr[1] = new int[3];
         arr[2] = new int[2];
-        arr[2] = new int[7];
+        arr[2] = new int[9];
 
         int value = 1;
         for(int i = 0; i < arr.length; i++){
