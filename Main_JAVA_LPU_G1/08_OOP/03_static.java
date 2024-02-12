@@ -8,9 +8,13 @@ class Student{
         System.out.println(studentName + " " + rollNo + " " + uniName);
     }
 
-    public static void myStaticMethod(Student obj){
-        System.out.println("From static method " + uniName + " " + obj.rollNo);
+    public static void myStaticMethod(){
+        System.out.println("From static method " + uniName);
     }
+
+    // public static void myStaticMethod(Student obj){
+    //     System.out.println("From static method " + uniName + " " + obj.rollNo);
+    // }
 }
 
 class LPU{
@@ -30,7 +34,7 @@ class LPU{
         s1.output();
         s2.output();
 
-        Student.myStaticMethod(s2);
+        Student.myStaticMethod();
     }
 }
 
