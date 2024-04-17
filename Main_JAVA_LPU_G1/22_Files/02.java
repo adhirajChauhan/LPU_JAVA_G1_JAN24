@@ -7,7 +7,7 @@ class LPU{
 
         try{
 
-            FileWriter fw = new FileWriter("MyFile");
+            FileWriter fw = new FileWriter("MyFile.txt");
 
             fw.write("Writing some demo text");
 
